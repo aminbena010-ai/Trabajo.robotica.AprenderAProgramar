@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende HTML y CSS</title>
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: "Arial", sans-serif;
+            background-color: #181818;
+            color: #FFFFFF;
+        }
+
+        
+        #PB {
+            color: #ffffff;
+            background-image: url("https://www.epitech-it.es/wp-content/uploads/2022/06/softwares-de-programacion.jpg");/*cargar la imagen*/
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 60px 20px;
+        }
+		
+        #PB h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+        }
+
+        #SUB {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px 25px;
+            border-radius: 10px;
+            display: inline-block;
+            color: #fff;
+            margin-top: 15px;
+        }
+
+        
+        .TablaP {
+            padding: 40px;
+        }
+
+        .TablaP h3 {
+            color: #0078d7;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        
+        #tabla-principal {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #1e1e1e;
+        }
+
+        #tabla-principal caption {
+            font-weight: bold;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #00aaff;
+        }
+
+        #tabla-principal th, 
+        #tabla-principal td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: left;
+        }
+
+        #tabla-principal th {
+            background-color: #7F00FF;
+            color: #fff;
+        }
+
+        /*#tabla-principal tr:nth-child(even) {
+            background-color: #2a2a2a;
+        }
+
+        #tabla-principal tr:hover {
+            background-color: #333333;
+        }*/
+    </style>
+</head>
+<body>
+    <header id="PB">
+        <h1>Aprende a programar</h1>
+        <div id="SUB">
+            <p>Aprende a programar en HTML</p>
+            <p>Aprender HTML es bastante fácil. ¡Puedes confiar en nosotros para aprender!</p>
+        </div>
+    </header>
+
+    <main class="TablaP">
+        <h3>1. HTML</h3>
+        <p>Los comandos HTML más básicos incluyen etiquetas de estructura que definen el esqueleto de una página web.</p>
+        
+        <table id="tabla-principal">
+            <caption>Etiquetas principales de la estructura del HTML</caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Etiqueta</th>
+                    <th>Función</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>&lt;html&gt;</td>
+                    <td>Delimita el inicio y el final del código HTML.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>&lt;head&gt;</td>
+                    <td>Contiene metadatos sobre la página.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>&lt;body&gt;</td>
+                    <td>Define el contenido principal y visible de la página.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
